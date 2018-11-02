@@ -31,8 +31,8 @@ public class GameManagerScript : MonoBehaviour
     {
         objectToActivateNumber = 0;
         objectToActivate = levelObjects[objectToActivateNumber];
-        //TeleportPlayer();
-        //TeleportLevelObjects(levelObjects);
+        TeleportPlayer();
+        TeleportLevelObjects(levelObjects);
     }
 
     private void TeleportPlayer()
